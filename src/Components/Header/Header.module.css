@@ -1,0 +1,29 @@
+#main {
+  background-color: #f1ebfb;
+  width:100% ;
+  position: fixed;
+}
+#logo{
+  height: 50px;
+}
+#ul {
+  direction: rtl;
+  height: 220px;
+  width: 100%;
+  background-color: #f1ebfb;
+  border: 1px solid black;
+}
+#hh {
+  padding-right: 35px;
+}
+#moshaver:hover{
+  color: rgba(0, 0, 255, 0.693);
+}
+@media (min-width: 768px) {
+  #ul {
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    border: none;
+  }
+}

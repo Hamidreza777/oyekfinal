@@ -1,0 +1,59 @@
+.baner{
+   height: 930px;
+    width: 100%;
+  margin-top: 10%;
+  background-color: #7636ed;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+  direction: rtl;
+}
+h2{
+    margin-top: 8%; 
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #4020be;
+}
+
+
+.aks img{
+    height: 400px;
+    width: 400px;
+    margin-top: 5%;
+  
+}
+.aks{
+    
+}
+
+.matn{
+    height: 300px;
+    width: 45%;
+    color: white;
+}
+.matn p{
+    margin-top: 10%;
+}
+span{
+    font-size: 25px;
+    font-weight: 800;
+   
+}
+ @media (min-width:768px) {
+    h2{
+        margin-top: 2%;
+    }
+    .baner{
+        margin-top: 3%;
+        height: 450px;
+    }
+   
+   
+} 
+@media (max-width:768px){
+.matn{
+    width: 100%;
+    padding: 10%;
+}
+}

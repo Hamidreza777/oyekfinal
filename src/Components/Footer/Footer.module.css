@@ -1,0 +1,63 @@
+@font-face {
+  font-family: vazir;
+  src: url(../../font/Vazir/Vazir.ttf);
+}
+* {
+  font-family: vazir;
+}
+
+#footer {
+  background-color: #f1ebfb;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 150px;
+}
+#ulli {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-top: 10%;
+}
+#insta {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+}
+#insta:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+#telegram {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+}
+#telegram:hover {
+  color: blue;
+  cursor: pointer;
+}
+#gmail {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+}
+#gmail:hover {
+  color: crimson;
+}
+#link {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+}
+#link:hover {
+  color: blue;
+}
+@media (min-width: 768px) {
+  #ulli {
+    height: 100px;
+    width: 400px;
+    margin-top: 0%;
+  }
+}

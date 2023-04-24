@@ -1,0 +1,101 @@
+.desing {
+  height: 550px;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  direction: rtl;
+}
+h3 {
+  margin-top: 5%;
+}
+#levels {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5%;
+
+  margin-top: 5%;
+  border-radius: 50% 50% 0 0;
+  height: 450px;
+  width: 340px;
+  background: rgb(208, 253, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(208, 253, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+#levels img {
+  height: 100px;
+}
+
+#levels1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5%;
+
+  line-height: 1.7;
+  margin-top: 5%;
+  border-radius: 50% 50% 0 0;
+  height: 400px;
+  width: 340px;
+  background: rgb(254, 238, 205);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 238, 205, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+#levels1 img {
+  height: 100px;
+}
+#levels2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5%;
+
+  line-height: 1.7;
+  margin-top: 5%;
+  border-radius: 50% 50% 0 0;
+  height: 400px;
+  width: 340px;
+  background: rgb(220, 245, 210);
+  background: linear-gradient(
+    180deg,
+    rgba(220, 245, 210, 1) 0%,
+    rgba(220, 245, 210, 1) 1%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+#levels2 img {
+  height: 100px;
+}
+@media (max-width: 1014px) {
+  .desing {
+    height: 900px;
+  }
+}
+@media (max-width: 768px) {
+  .desing {
+    height: 1340px;
+    margin-top: 20%;
+  }
+}
+@media (min-width: 768px) {
+  #levels {
+    padding: 2%;
+  }
+  #levels1 {
+    padding: 2%;
+  }
+  #levels2 {
+    padding: 2%;
+  }
+}
