@@ -15,7 +15,7 @@ h1 {
   color: #4020be;
   direction: rtl;
   display: block;
-padding-top: 10%;
+  padding-top: 10%;
   padding-right: 9%;
 }
 .contaner {
@@ -26,11 +26,9 @@ padding-top: 10%;
 }
 .text {
   height: 200px;
-  width: 50%;
-  padding-right: 5%;
+
   margin-top: 8%;
   direction: rtl;
-
 }
 .text p {
   font-size: 20px;
@@ -106,11 +104,10 @@ h3 {
 
 @media (max-width: 728px) {
   h1 {
-   padding-top: 25%;
+    padding-top: 25%;
     padding-right: 5%;
   }
   .text {
-    width: 90%;
     padding-right: 0px;
     height: 300px;
   }
@@ -121,7 +118,7 @@ h3 {
   #div1 {
     height: 1200px;
   }
-  .text p{
+  .text p {
     font-size: 15px;
   }
   .one {
@@ -135,7 +132,7 @@ h3 {
   .four {
     margin-left: 0%;
   }
-  .baner{
+  .baner {
     margin-top: 1200px;
     height: 850px;
   }
@@ -150,9 +147,26 @@ h3 {
   .one {
     margin-left: 0;
   }
+  .text {
+    padding-right: 4.5%;
+    height: 300px;
+    width: 50%;
+  }
 }
 @media (max-width: 1024px) {
   .four {
     margin-top: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .text {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .text{
+    padding: 5%;
   }
 }

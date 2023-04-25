@@ -56,4 +56,13 @@ span{
     width: 100%;
     padding: 10%;
 }
+.baner{
+    height: 750px;
 }
+}
+@media (max-width:425px){
+   
+    .baner{
+        height: 970px;
+    }
+    }
