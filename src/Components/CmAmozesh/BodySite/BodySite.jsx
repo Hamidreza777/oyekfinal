@@ -18,8 +18,8 @@ const ItemBodySite = () =>{
                 <h1>مجموعه آموزش برنامه‌نویسی</h1>
             </div>
             <div className='div-modat-zaman'>
-                <p className='p-modat-zaman'>مدت زمان آموز‌ش‌های این صفحه:۶۱۸ ساعت</p>
-                <p className='p-amozesh'>تعداد آموز‌ش‌های این صفحه:۱۰۱ عنوان آموزشی</p>
+                <p className='p-modat-zaman'>مدت زمان آموز‌ش‌های این صفحه:290 ساعت</p>
+                <p className='p-amozesh'>تعداد آموز‌ش‌های این صفحه:4 عنوان آموزشی</p>
             </div>
            </section>
         </section>
@@ -60,7 +60,7 @@ const ItemBodySite = () =>{
                 <div className='div-daneshjoyan'>
                     <p className='p-tedad'>تعداد دانشجویان: ۹۹,۰۳۰</p>
                     <p className='p-modares'>مدرس:استاد سلطانی</p>
-                    <p className='p-zaman'>مدت زمان آموزش: ۲ ساعت و ۳۸ دقیقه</p>
+                    <p className='p-zaman'>مدت زمان آموزش: 30 ساعت  </p>
                 </div>
                 <div className='div-btn'>
                     <button id='btn-html'><p>یادگیری شروع کنید</p></button>
@@ -73,7 +73,7 @@ const ItemBodySite = () =>{
                 <div className='div-daneshjoyan'>
                     <p className='p-tedad'>تعداد دانشجویان: ۹۹,۰۳۰</p>
                     <p className='p-modares'>مدرس:استاد سلطانی</p>
-                    <p className='p-zaman'>مدت زمان آموزش: ۲ ساعت و ۳۸ دقیقه</p>
+                    <p className='p-zaman'>مدت زمان آموزش: 40 ساعت  </p>
                 </div>
                 <div className='div-btn'>
                     <button id='btn-html'><p>یادگیری شروع کنید</p></button>
@@ -86,7 +86,7 @@ const ItemBodySite = () =>{
                 <div className='div-daneshjoyan'>
                     <p className='p-tedad'>تعداد دانشجویان: ۹۹,۰۳۰</p>
                     <p className='p-modares'>مدرس:استاد سلطانی</p>
-                    <p className='p-zaman'>مدت زمان آموزش: ۲ ساعت و ۳۸ دقیقه</p>
+                    <p className='p-zaman'>مدت زمان آموزش: 70 ساعت </p>
                 </div>
                 <div className='div-btn'>
                     <button id='btn-html'><p>یادگیری شروع کنید</p></button>
@@ -99,7 +99,7 @@ const ItemBodySite = () =>{
                 <div className='div-daneshjoyan'>
                     <p className='p-tedad'>تعداد دانشجویان: ۹۹,۰۳۰</p>
                     <p className='p-modares'>مدرس:استاد سلطانی</p>
-                    <p className='p-zaman'>مدت زمان آموزش: ۲ ساعت و ۳۸ دقیقه</p>
+                    <p className='p-zaman'>مدت زمان آموزش: 150 ساعت </p>
                 </div>
                 <div className='div-btn'>
                     <button id='btn-html'><p>یادگیری شروع کنید</p></button>

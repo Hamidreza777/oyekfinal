@@ -1,7 +1,15 @@
+$ColorMatnAsli: #472cbe;
+$ColorMatnDovom: #7636ed;
+$ColorBtn10: #D48BF1;
+$ColorShadow: #f8f9fd;
+$ColorBody: #fbfbfb;
+
 footer{
-    background-color: #fff;
-    box-shadow: 0 0 10px black;
+    background-color: $ColorBody;
+    border: 0.5px solid rgba(0, 0, 0, 0.253);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
     margin-top: 70px;
+    padding-bottom: 40px;
 #section-footer-item{
     display: flex;
     flex-direction: column;
@@ -16,7 +24,7 @@ footer{
         margin-right: 20px;
         .p-1{
             font-size: 20px;
-            color: black;
+            color: $ColorMatnAsli;
             font-weight: bold;
         }
         a{
@@ -30,9 +38,10 @@ footer{
         flex-direction: column;
         align-items: flex-end;
         margin-right: 20px;
+        margin-top: 20px;
         .p-about{
             font-size: 20px;
-            color: black;
+            color: $ColorMatnAsli;
             font-weight: bold;
         }
         .p-matn{
@@ -42,7 +51,7 @@ footer{
             #btn-bishtar{
                 background-color: #fff;
                 border: none;
-                color: blue;
+                color: $ColorMatnAsli;
                 font-weight: bold;
                 font-size: 16px;
                 margin-right: 5px;
@@ -74,8 +83,8 @@ footer{
             width: 150px;
             border: none;
             background-color: #fff;
-            box-shadow: 0 0 10px black;
-            border: 1px solid rgba(0, 0, 0, 0.363);
+            border: 0.5px solid rgba(0, 0, 0, 0.253);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
             border-radius: 3px;
             font-size: 16px;
             font-weight: bold;
@@ -84,7 +93,7 @@ footer{
             height: 30px;
             width: 80px;
             font-size: 16px;
-            background-color: blue;
+            background-color: $ColorBtn10;
             border: none;
             border-radius: 3px;
             color: #fff;
@@ -137,8 +146,8 @@ footer{
         width: 200px;
         border: none;
         background-color: #fff;
-        box-shadow: 0 0 10px black;
-        border: 1px solid rgba(0, 0, 0, 0.363);
+        border: 0.5px solid rgba(0, 0, 0, 0.253);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
         border-radius: 3px;
         font-size: 20px;
         font-weight: bold;
@@ -147,7 +156,7 @@ footer{
         height: 35px;
         width: 90px;
         font-size: 20px;
-        background-color: blue;
+        background-color: $ColorBtn10;
         border: none;
         border-radius: 3px;
         color: #fff;

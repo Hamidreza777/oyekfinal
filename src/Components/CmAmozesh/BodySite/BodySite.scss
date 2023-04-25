@@ -1,3 +1,9 @@
+$ColorMatnAsli: #472cbe;
+$ColorMatnDovom: #7636ed;
+$ColorBtn10: #D48BF1;
+$ColorShadow: #f8f9fd;
+$ColorBody: #fbfbfb;
+
 #section-media1{
     display: flex;
     flex-direction: column;
@@ -16,17 +22,14 @@
     #section-tozihat{
         // background-color: red;
         .div-amozesh-barname{
-            background-color: #fff;
             display: flex;
             justify-content: center;
-            align-items: center;
             h1{
                 font-size: 30px;
-                color: red;
+                color: $ColorMatnAsli;
             }
         }
         .div-modat-zaman{
-            background-color: #fff;
             display: flex;
             // background-color: blue;
             flex-direction: column;
@@ -44,7 +47,6 @@
                 color: black;
                 font-size: 17px;
                 font-weight: bold;
-                margin-right: 10px;
                 direction: rtl;
             }
         }
@@ -52,28 +54,33 @@
 }
 .div-matn{
     // background-color: red;
-    width: 100%;
+    width: 90%;
     direction: rtl;
     margin-top: 50px;
+    margin-left: 5%;
     .matn{
         font-size: 17px;
         padding: 10px;
+        color: black;
+        line-height: 30px;
     }
 }
 .div-amozesh-oyek{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     direction: rtl;
     display: flex;
     flex-direction: column;
     justify-content: center;
     .p1{
-        color: rgb(255, 187, 0);
+        color: $ColorMatnAsli;
         font-size: 25px;
         padding: 10px;
-        width: 95%;
+        width: 100%;
+        font-weight: bold;
     }
     .p2{
-        color: rgb(99, 73, 1);
+        color: black;
         font-size: 20px;
         padding: 10px;
         width: 95%;
@@ -85,13 +92,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 70px;
+    gap: 35px;
     .div-dore-html{
         height: 370px;
-        width: 95%;
-        background-color: #fff;
-        border: 1px solid rgba(0, 0, 0, 0.534);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+        width: 85%;
+        background-color: $ColorBody;
+        border: 0.5px solid rgba(0, 0, 0, 0.253);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -102,7 +110,7 @@
         .p-html{
             direction: rtl;
             font-size: 22px;
-            color: black;
+            color: $ColorMatnAsli;
             font-weight: bold;
         }
         .div-daneshjoyan{
@@ -127,17 +135,17 @@
         .div-btn{
             // background-color: red;
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             width: 100%;
             margin-top: 10px;
             #btn-html{
                 height: 40px;
                 width: 150px;
-                background-color: blue;
+                background-color: $ColorBtn10;
                 border: none;
                 border-radius: 7px;
                 p{
-                    color: #fff;
+                    color: $ColorBody;
                     font-size: 17px;
                     font-weight: bold;
                 }
@@ -146,10 +154,10 @@
     }
     .div-dore-react{
         height: 370px;
-        width: 95%;
+        width: 85%;
         background-color: #fff;
-        border: 1px solid rgba(0, 0, 0, 0.534);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+        border: 1px solid rgba(0, 0, 0, 0.253);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -161,7 +169,7 @@
         .p-react{
             direction: rtl;
             font-size: 22px;
-            color: black;
+            color: $ColorMatnAsli;
             font-weight: bold;
         }
         .div-daneshjoyan{
@@ -186,17 +194,17 @@
         .div-btn{
             // background-color: red;
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             width: 100%;
             margin-top: 10px;
             #btn-html{
                 height: 40px;
                 width: 150px;
-                background-color: blue;
+                background-color: $ColorBtn10;
                 border: none;
                 border-radius: 7px;
                 p{
-                    color: #fff;
+                    color: $ColorBody;
                     font-size: 17px;
                     font-weight: bold;
                 }
@@ -205,10 +213,10 @@
     }
     .div-dore-back-end-mob{
         height: 370px;
-        width: 95%;
+        width: 85%;
         background-color: #fff;
-        border: 1px solid rgba(0, 0, 0, 0.534);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+        border: 1px solid rgba(0, 0, 0, 0.253);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -220,7 +228,7 @@
         .p-back-end{
             direction: rtl;
             font-size: 22px;
-            color: black;
+            color: $ColorMatnAsli;
             font-weight: bold;
         }
         .div-daneshjoyan{
@@ -245,17 +253,17 @@
         .div-btn{
             // background-color: red;
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             width: 100%;
             margin-top: 10px;
             #btn-html{
                 height: 40px;
                 width: 150px;
-                background-color: blue;
+                background-color: $ColorBtn10;
                 border: none;
                 border-radius: 7px;
                 p{
-                    color: #fff;
+                    color: $ColorBody;
                     font-size: 17px;
                     font-weight: bold;
                 }
@@ -264,10 +272,10 @@
     }
     .div-dore-back-end-pish{
         height: 370px;
-        width: 95%;
+        width: 85%;
         background-color: #fff;
-        border: 1px solid rgba(0, 0, 0, 0.534);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+        border: 1px solid rgba(0, 0, 0, 0.253);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -279,7 +287,7 @@
         .p-back-end{
             direction: rtl;
             font-size: 22px;
-            color: black;
+            color: $ColorMatnAsli;
             font-weight: bold;
         }
         .div-daneshjoyan{
@@ -304,17 +312,17 @@
         .div-btn{
             // background-color: red;
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             width: 100%;
             margin-top: 10px;
             #btn-html{
                 height: 40px;
                 width: 150px;
-                background-color: blue;
+                background-color: $ColorBtn10;
                 border: none;
                 border-radius: 7px;
                 p{
-                    color: #fff;
+                    color: $ColorBody;
                     font-size: 17px;
                     font-weight: bold;
                 }
@@ -323,20 +331,20 @@
     }
         
     .div-dore-html:hover{
-        border: 1px solid rgb(238, 255, 0);
-        box-shadow: 0 0 10px rgba(238, 255, 0, 0.582);
+        border: 1px solid #472cbe4b;
+        box-shadow: 0 0 10px #472cbe79;
     }
     .div-dore-react:hover{
-        border: 1px solid rgb(238, 255, 0);
-        box-shadow: 0 0 10px rgba(238, 255, 0, 0.582);
+        border: 1px solid #472cbe4b;
+        box-shadow: 0 0 10px #472cbe79;
     }
     .div-dore-back-end-mob:hover{
-        border: 1px solid rgb(238, 255, 0);
-        box-shadow: 0 0 10px rgba(238, 255, 0, 0.582);
+        border: 1px solid #472cbe4b;
+        box-shadow: 0 0 10px #472cbe79;
     }
     .div-dore-back-end-pish:hover{
-        border: 1px solid rgb(238, 255, 0);
-        box-shadow: 0 0 10px rgba(238, 255, 0, 0.582);
+        border: 1px solid #472cbe4b;
+        box-shadow: 0 0 10px #472cbe79;
     }
 }
 
@@ -401,6 +409,26 @@
     }
 }
 @media (min-width:1020px) {
+    #section-media1{
+        #section-tozihat{
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .div-amozesh-barname{
+                // background-color: blue;
+                width: 100%;
+                h1{
+                    margin-right: -80px;
+                }
+            }
+            .div-modat-zaman{
+                // background-color: yellow;
+                width: 100%;
+                align-items: flex-start;
+            }
+        }
+    }
     #section-doreha{
         // background-color: red;
         gap: 5rem;

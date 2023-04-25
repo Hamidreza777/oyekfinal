@@ -13,17 +13,14 @@
   width: 100%;
 }
 #section-media1 #section-tozihat .div-amozesh-barname {
-  background-color: #fff;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 #section-media1 #section-tozihat .div-amozesh-barname h1 {
   font-size: 30px;
-  color: red;
+  color: #472cbe;
 }
 #section-media1 #section-tozihat .div-modat-zaman {
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -41,35 +38,39 @@
   color: black;
   font-size: 17px;
   font-weight: bold;
-  margin-right: 10px;
   direction: rtl;
 }
 
 .div-matn {
-  width: 100%;
+  width: 90%;
   direction: rtl;
   margin-top: 50px;
+  margin-left: 5%;
 }
 .div-matn .matn {
   font-size: 17px;
   padding: 10px;
+  color: black;
+  line-height: 30px;
 }
 
 .div-amozesh-oyek {
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
   direction: rtl;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .div-amozesh-oyek .p1 {
-  color: rgb(255, 187, 0);
+  color: #472cbe;
   font-size: 25px;
   padding: 10px;
-  width: 95%;
+  width: 100%;
+  font-weight: bold;
 }
 .div-amozesh-oyek .p2 {
-  color: rgb(99, 73, 1);
+  color: black;
   font-size: 20px;
   padding: 10px;
   width: 95%;
@@ -80,14 +81,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 70px;
+  gap: 35px;
 }
 #section-doreha .div-dore-html {
   height: 370px;
-  width: 95%;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.534);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+  width: 85%;
+  background-color: #fbfbfb;
+  border: 0.5px solid rgba(0, 0, 0, 0.253);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +101,7 @@
 #section-doreha .div-dore-html .p-html {
   direction: rtl;
   font-size: 22px;
-  color: black;
+  color: #472cbe;
   font-weight: bold;
 }
 #section-doreha .div-dore-html .div-daneshjoyan {
@@ -122,28 +124,28 @@
 }
 #section-doreha .div-dore-html .div-btn {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   margin-top: 10px;
 }
 #section-doreha .div-dore-html .div-btn #btn-html {
   height: 40px;
   width: 150px;
-  background-color: blue;
+  background-color: #D48BF1;
   border: none;
   border-radius: 7px;
 }
 #section-doreha .div-dore-html .div-btn #btn-html p {
-  color: #fff;
+  color: #fbfbfb;
   font-size: 17px;
   font-weight: bold;
 }
 #section-doreha .div-dore-react {
   height: 370px;
-  width: 95%;
+  width: 85%;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.534);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,7 +158,7 @@
 #section-doreha .div-dore-react .p-react {
   direction: rtl;
   font-size: 22px;
-  color: black;
+  color: #472cbe;
   font-weight: bold;
 }
 #section-doreha .div-dore-react .div-daneshjoyan {
@@ -179,28 +181,28 @@
 }
 #section-doreha .div-dore-react .div-btn {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   margin-top: 10px;
 }
 #section-doreha .div-dore-react .div-btn #btn-html {
   height: 40px;
   width: 150px;
-  background-color: blue;
+  background-color: #D48BF1;
   border: none;
   border-radius: 7px;
 }
 #section-doreha .div-dore-react .div-btn #btn-html p {
-  color: #fff;
+  color: #fbfbfb;
   font-size: 17px;
   font-weight: bold;
 }
 #section-doreha .div-dore-back-end-mob {
   height: 370px;
-  width: 95%;
+  width: 85%;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.534);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -213,7 +215,7 @@
 #section-doreha .div-dore-back-end-mob .p-back-end {
   direction: rtl;
   font-size: 22px;
-  color: black;
+  color: #472cbe;
   font-weight: bold;
 }
 #section-doreha .div-dore-back-end-mob .div-daneshjoyan {
@@ -236,28 +238,28 @@
 }
 #section-doreha .div-dore-back-end-mob .div-btn {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   margin-top: 10px;
 }
 #section-doreha .div-dore-back-end-mob .div-btn #btn-html {
   height: 40px;
   width: 150px;
-  background-color: blue;
+  background-color: #D48BF1;
   border: none;
   border-radius: 7px;
 }
 #section-doreha .div-dore-back-end-mob .div-btn #btn-html p {
-  color: #fff;
+  color: #fbfbfb;
   font-size: 17px;
   font-weight: bold;
 }
 #section-doreha .div-dore-back-end-pish {
   height: 370px;
-  width: 95%;
+  width: 85%;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.534);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -270,7 +272,7 @@
 #section-doreha .div-dore-back-end-pish .p-back-end {
   direction: rtl;
   font-size: 22px;
-  color: black;
+  color: #472cbe;
   font-weight: bold;
 }
 #section-doreha .div-dore-back-end-pish .div-daneshjoyan {
@@ -293,37 +295,37 @@
 }
 #section-doreha .div-dore-back-end-pish .div-btn {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   margin-top: 10px;
 }
 #section-doreha .div-dore-back-end-pish .div-btn #btn-html {
   height: 40px;
   width: 150px;
-  background-color: blue;
+  background-color: #D48BF1;
   border: none;
   border-radius: 7px;
 }
 #section-doreha .div-dore-back-end-pish .div-btn #btn-html p {
-  color: #fff;
+  color: #fbfbfb;
   font-size: 17px;
   font-weight: bold;
 }
 #section-doreha .div-dore-html:hover {
-  border: 1px solid rgb(238, 255, 0);
-  box-shadow: 0 0 10px rgba(238, 255, 0, 0.582);
+  border: 1px solid rgba(71, 44, 190, 0.2941176471);
+  box-shadow: 0 0 10px rgba(71, 44, 190, 0.4745098039);
 }
 #section-doreha .div-dore-react:hover {
-  border: 1px solid rgb(238, 255, 0);
-  box-shadow: 0 0 10px rgba(238, 255, 0, 0.582);
+  border: 1px solid rgba(71, 44, 190, 0.2941176471);
+  box-shadow: 0 0 10px rgba(71, 44, 190, 0.4745098039);
 }
 #section-doreha .div-dore-back-end-mob:hover {
-  border: 1px solid rgb(238, 255, 0);
-  box-shadow: 0 0 10px rgba(238, 255, 0, 0.582);
+  border: 1px solid rgba(71, 44, 190, 0.2941176471);
+  box-shadow: 0 0 10px rgba(71, 44, 190, 0.4745098039);
 }
 #section-doreha .div-dore-back-end-pish:hover {
-  border: 1px solid rgb(238, 255, 0);
-  box-shadow: 0 0 10px rgba(238, 255, 0, 0.582);
+  border: 1px solid rgba(71, 44, 190, 0.2941176471);
+  box-shadow: 0 0 10px rgba(71, 44, 190, 0.4745098039);
 }
 
 @media (min-width: 750px) {
@@ -381,6 +383,21 @@
   }
 }
 @media (min-width: 1020px) {
+  #section-media1 #section-tozihat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #section-media1 #section-tozihat .div-amozesh-barname {
+    width: 100%;
+  }
+  #section-media1 #section-tozihat .div-amozesh-barname h1 {
+    margin-right: -80px;
+  }
+  #section-media1 #section-tozihat .div-modat-zaman {
+    width: 100%;
+    align-items: flex-start;
+  }
   #section-doreha {
     gap: 5rem;
     flex-direction: row;

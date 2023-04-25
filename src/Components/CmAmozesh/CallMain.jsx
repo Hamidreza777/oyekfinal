@@ -1,7 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+
 import ItemBodySite from './BodySite/BodySite';
 import FooterItem from './Footer/Footer';
+
+import './CallMain.css';
 
 const AllCode = () =>{
 
