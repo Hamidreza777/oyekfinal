@@ -100,7 +100,9 @@
     width: 100%;
     height: 500px;
   }
-  
+ #ff{
+  margin-top: 50%;
+ }
 }
 @media (max-width: 455px) {
   #div2 {
@@ -110,5 +112,12 @@
     width: 100%;
     height: 1000px;
   }
- 
+ #ff{
+  margin-top: 240%;
+ }
+}
+@media (max-width: 320px){
+  #ff{
+    margin-top: 270%;
+   }
 }

@@ -111,8 +111,12 @@ const About = () => {
         </div>
      
       </div>
-      
-<Footer id={Aboutecss.ff}/>
+      <div  id={Aboutecss.ff}>
+
+      <Footer/>
+
+      </div>
+
 
 
 
