@@ -3,7 +3,7 @@ import React from 'react';
 const Cv = () => {
     return (
         <div>
-            <h1>salam khoshamadid</h1>
+            <h1>hello world</h1>
         </div>
     );
 }
