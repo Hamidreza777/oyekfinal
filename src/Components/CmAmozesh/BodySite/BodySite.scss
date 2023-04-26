@@ -1,0 +1,455 @@
+$ColorMatnAsli: #472cbe;
+$ColorMatnDovom: #7636ed;
+$ColorBtn10: #D48BF1;
+$ColorShadow: #f8f9fd;
+$ColorBody: #fbfbfb;
+
+#section-media1{
+    display: flex;
+    flex-direction: column;
+    // background-color: black;
+    padding-top: 100px;
+    .div-photo{
+        width: 100%;
+        height: 200px;
+        // background-color: red;
+        margin-top: 20px;
+        .img-amozesh{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    #section-tozihat{
+        // background-color: red;
+        .div-amozesh-barname{
+            display: flex;
+            justify-content: center;
+            h1{
+                font-size: 30px;
+                color: $ColorMatnAsli;
+            }
+        }
+        .div-modat-zaman{
+            display: flex;
+            // background-color: blue;
+            flex-direction: column;
+            gap: 5px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            .p-modat-zaman{
+                font-size: 17px;
+                color: black;
+                font-weight: bold;
+                direction: rtl;
+            }
+            .p-amozesh{
+                color: black;
+                font-size: 17px;
+                font-weight: bold;
+                direction: rtl;
+            }
+        }
+    }
+}
+.div-matn{
+    // background-color: red;
+    width: 90%;
+    direction: rtl;
+    margin-top: 50px;
+    margin-left: 5%;
+    .matn{
+        font-size: 17px;
+        padding: 10px;
+        color: black;
+        line-height: 30px;
+    }
+}
+.div-amozesh-oyek{
+    width: 90%;
+    margin-left: 5%;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .p1{
+        color: $ColorMatnAsli;
+        font-size: 25px;
+        padding: 10px;
+        width: 100%;
+        font-weight: bold;
+    }
+    .p2{
+        color: black;
+        font-size: 20px;
+        padding: 10px;
+        width: 95%;
+    }
+}
+#section-doreha{
+    display: flex;
+    // background-color: red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 35px;
+    .div-dore-html{
+        height: 370px;
+        width: 85%;
+        background-color: $ColorBody;
+        border: 0.5px solid rgba(0, 0, 0, 0.253);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img-dore-html{
+            height: 180px;
+            width: 85%;
+        }
+        .p-html{
+            direction: rtl;
+            font-size: 22px;
+            color: $ColorMatnAsli;
+            font-weight: bold;
+        }
+        .div-daneshjoyan{
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+            .p-tedad{
+                font-size: 17px;
+                color: black;
+            }
+            .p-modares{
+                font-size: 17px;
+                color: black;
+            }
+            .p-zaman{
+                font-size: 17px;
+                color: black;
+            }
+        }
+        .div-btn{
+            // background-color: red;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 10px;
+            #btn-html{
+                height: 40px;
+                width: 150px;
+                background-color: $ColorBtn10;
+                border: none;
+                border-radius: 7px;
+                p{
+                    color: $ColorBody;
+                    font-size: 17px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .div-dore-react{
+        height: 370px;
+        width: 85%;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.253);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        .img-dore-react{
+            height: 180px;
+            width: 85%;
+        }
+        .p-react{
+            direction: rtl;
+            font-size: 22px;
+            color: $ColorMatnAsli;
+            font-weight: bold;
+        }
+        .div-daneshjoyan{
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+            .p-tedad{
+                font-size: 17px;
+                color: black;
+            }
+            .p-modares{
+                font-size: 17px;
+                color: black;
+            }
+            .p-zaman{
+                font-size: 17px;
+                color: black;
+            }
+        }
+        .div-btn{
+            // background-color: red;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 10px;
+            #btn-html{
+                height: 40px;
+                width: 150px;
+                background-color: $ColorBtn10;
+                border: none;
+                border-radius: 7px;
+                p{
+                    color: $ColorBody;
+                    font-size: 17px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .div-dore-back-end-mob{
+        height: 370px;
+        width: 85%;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.253);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        .img-dore-back-end{
+            height: 180px;
+            width: 85%;
+        }
+        .p-back-end{
+            direction: rtl;
+            font-size: 22px;
+            color: $ColorMatnAsli;
+            font-weight: bold;
+        }
+        .div-daneshjoyan{
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+            .p-tedad{
+                font-size: 17px;
+                color: black;
+            }
+            .p-modares{
+                font-size: 17px;
+                color: black;
+            }
+            .p-zaman{
+                font-size: 17px;
+                color: black;
+            }
+        }
+        .div-btn{
+            // background-color: red;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 10px;
+            #btn-html{
+                height: 40px;
+                width: 150px;
+                background-color: $ColorBtn10;
+                border: none;
+                border-radius: 7px;
+                p{
+                    color: $ColorBody;
+                    font-size: 17px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .div-dore-back-end-pish{
+        height: 370px;
+        width: 85%;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.253);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        .img-dore-back-end{
+            height: 180px;
+            width: 85%;
+        }
+        .p-back-end{
+            direction: rtl;
+            font-size: 22px;
+            color: $ColorMatnAsli;
+            font-weight: bold;
+        }
+        .div-daneshjoyan{
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+            .p-tedad{
+                font-size: 17px;
+                color: black;
+            }
+            .p-modares{
+                font-size: 17px;
+                color: black;
+            }
+            .p-zaman{
+                font-size: 17px;
+                color: black;
+            }
+        }
+        .div-btn{
+            // background-color: red;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 10px;
+            #btn-html{
+                height: 40px;
+                width: 150px;
+                background-color: $ColorBtn10;
+                border: none;
+                border-radius: 7px;
+                p{
+                    color: $ColorBody;
+                    font-size: 17px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+        
+    .div-dore-html:hover{
+        border: 1px solid #472cbe4b;
+        box-shadow: 0 0 10px #472cbe79;
+    }
+    .div-dore-react:hover{
+        border: 1px solid #472cbe4b;
+        box-shadow: 0 0 10px #472cbe79;
+    }
+    .div-dore-back-end-mob:hover{
+        border: 1px solid #472cbe4b;
+        box-shadow: 0 0 10px #472cbe79;
+    }
+    .div-dore-back-end-pish:hover{
+        border: 1px solid #472cbe4b;
+        box-shadow: 0 0 10px #472cbe79;
+    }
+}
+
+// #region media
+@media (min-width:750px) {
+    #section-media1{
+        // background-color: black;
+        flex-direction: row-reverse;
+        height: 300px;
+        .div-photo{
+            background-color: #fff;
+            width: 58%;
+            height: 130%;
+            margin-top: 0;
+            .img-amozesh{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        #section-tozihat{
+            background-color: #fff;
+            flex-direction: column;
+            width: 40%;
+            margin-right: 2%;
+            .div-amozesh-barname{
+                margin-top: 0;
+                // background-color: blue;
+                h1{
+                    font-size: 30px;
+                    width: 100%;
+                }
+            }
+            .div-modat-zaman{
+                // background-color: red;
+                direction: rtl;
+                .p-modat-zaman{
+                    font-size: 20px;
+                }
+                .p-amozesh{
+                    font-size: 20px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .div-matn{
+        margin-top: 70px;
+    }
+    #section-doreha{
+        .div-dore-html{
+            width: 50%;
+        }
+        .div-dore-react{
+            width: 50%;
+        }
+        .div-dore-back-end-mob{
+            width: 50%;
+        }
+        .div-dore-back-end-pish{
+            width: 50%;
+        }
+    }
+}
+@media (min-width:1020px) {
+    #section-media1{
+        #section-tozihat{
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .div-amozesh-barname{
+                // background-color: blue;
+                width: 100%;
+                h1{
+                    margin-right: -80px;
+                }
+            }
+            .div-modat-zaman{
+                // background-color: yellow;
+                width: 100%;
+                align-items: flex-start;
+            }
+        }
+    }
+    #section-doreha{
+        // background-color: red;
+        gap: 5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .div-dore-html{
+            width: 350px;
+            margin-top: 0;
+        }
+        .div-dore-react{
+            width: 350px;
+            margin-top: 0;
+        }
+        .div-dore-back-end-mob{
+            width: 350px;
+            margin-top: 0;
+        }
+        .div-dore-back-end-pish{
+            width: 350px;
+            margin-top: 0;
+        }
+    }
+}
+// #endregion

@@ -1,15 +1,11 @@
 import React from "react";
+import AllCode from "../CmAmozesh/CallMain";
 
 const Call = () => {
   return (
-  
       <>
-        <h1>sa</h1>
-       
+        <AllCode/>
       </>
-
-  
   );
 };
-
 export default Call;

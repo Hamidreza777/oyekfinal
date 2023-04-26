@@ -1,7 +1,10 @@
 #main {
-  background-color: #f1ebfb;
+  background-color: #f1ebfb6b;
   width:100% ;
   position: fixed !important;
+
+  position: fixed;
+  backdrop-filter: blur(10px);
 }
 #logo{
   height: 50px;
@@ -10,7 +13,7 @@
   direction: rtl;
   height: 220px;
   width: 100%;
-  background-color: #f1ebfb;
+  background-color: #f1ebfb4b;
   border: 1px solid black;
 }
 #hh {
