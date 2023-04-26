@@ -4,6 +4,7 @@ import Footercss from "../Footer/Footer.module.css";
 import { TbBrandTelegram } from "react-icons/tb";
 import { CgMail } from "react-icons/cg";
 import { AiFillLinkedin } from "react-icons/ai";
+import { Link,Outlet } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -16,8 +17,7 @@ const Footer = () => {
             <a href="https://www.oyek.net/" class="hover:underline">
               .تمامی حقوق ای سایت مـتعلق به شرکت اُیک می باشد
             </a>
-           
-           گروه نرم افزاری اُیک
+            گروه نرم افزاری اُیک
           </span>
           <ul
             id={Footercss.ulli}
@@ -50,7 +50,15 @@ const Footer = () => {
               </a>
             </li>
           </ul>
+          <div className={Footercss.linkb}>
+            <Link to="/">خانه</Link>
+            <Link to="/Cv">نمونه کار</Link>
+            <Link to="/About">درباره ما</Link>
+            <Link to="/Cv">آموزش برنامه نویسی</Link>
+           <a href="tel:09220136476">مشاوره تلفنی</a>
+          </div>
         </div>
+       
       </footer>
     </>
   );

@@ -11,13 +11,14 @@
   display: flex;
   align-items: center;
   text-align: center;
-  height: 150px;
+  height: 350px;
 }
 #ulli {
   display: flex;
   justify-content: space-around;
   text-align: center;
   align-items: center;
+
   margin-top: 10%;
 }
 #insta {
@@ -54,10 +55,31 @@
 #link:hover {
   color: blue;
 }
+.linkb {
+  height: 100px;
+
+  width: 100%;
+ direction: rtl;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+
+}
 @media (min-width: 768px) {
   #ulli {
-    height: 100px;
+    height: 150px;
     width: 400px;
-    margin-top: 0%;
+    margin-top: 3%;
+  
+  }
+  .linkb {
+    width: 200px;
+    height: 300px;
+    margin-top: 5%;
+    flex-direction: column;
+   
+  
   }
 }

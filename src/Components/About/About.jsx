@@ -4,10 +4,15 @@ import artin from "../../pic/artin.jpg";
 import qazal from '../../pic/q.jpg'
 import { TbBrandTelegram } from "react-icons/tb";
 import { CgMail } from "react-icons/cg";
+import Footer from "../Footer/Footer";
 const About = () => {
   return (
     <>
-      <div id={Aboutecss.contaner}>
+   <div className={Aboutecss.body}>
+
+
+
+   <div id={Aboutecss.contaner}>
         <div id={Aboutecss.div2}>
           <h1 id={Aboutecss.hh}>اعضای تیم اُیک</h1>
           <div id={Aboutecss.textb}>
@@ -104,7 +109,15 @@ const About = () => {
             </div>
           </div>
         </div>
+     
       </div>
+      
+<Footer id={Aboutecss.ff}/>
+
+
+
+
+   </div>
     </>
   );
 };
