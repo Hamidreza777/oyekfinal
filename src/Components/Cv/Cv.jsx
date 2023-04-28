@@ -1,9 +1,10 @@
 import React from 'react';
+import AllCodeNemone from '../CmNemoneKar/CallNemone';
 
 const Cv = () => {
     return (
         <div>
-            <h1>hello world</h1>
+            <AllCodeNemone/>
         </div>
     );
 }
