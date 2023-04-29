@@ -4,7 +4,7 @@ import Footercss from "../Footer/Footer.module.css";
 import { TbBrandTelegram } from "react-icons/tb";
 import { CgMail } from "react-icons/cg";
 import { AiFillLinkedin } from "react-icons/ai";
-import { Link,Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -54,11 +54,10 @@ const Footer = () => {
             <Link to="/">خانه</Link>
             <Link to="/Cv">نمونه کار</Link>
             <Link to="/About">درباره ما</Link>
-            <Link to="/Cv">آموزش برنامه نویسی</Link>
-           <a href="tel:09220136476">مشاوره تلفنی</a>
+            <Link to="/Call">آموزش برنامه نویسی</Link>
+            <a href="tel:09220136476">مشاوره تلفنی</a>
           </div>
         </div>
-       
       </footer>
     </>
   );
