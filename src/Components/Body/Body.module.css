@@ -91,7 +91,9 @@ h3 {
   border-radius: 20px;
   margin-left: 6%;
 }
-
+h2{
+   color: #4020be;
+}
 #all {
   display: flex;
   flex-direction: column;
@@ -103,6 +105,11 @@ h3 {
 }
 
 @media (max-width: 728px) {
+
+  .one,.two,.three,.four{
+    background-color:#4020be2d
+  }
+  
   h1 {
     padding-top: 25%;
     padding-right: 5%;
