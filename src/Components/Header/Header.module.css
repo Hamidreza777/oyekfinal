@@ -2,9 +2,9 @@
   background-color: #f1ebfb6b;
   width:100% ;
   position: fixed !important;
-
   position: fixed;
   backdrop-filter: blur(10px);
+  z-index: 20;
 }
 #logo{
   height: 50px;
