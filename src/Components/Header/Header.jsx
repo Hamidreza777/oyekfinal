@@ -1,5 +1,5 @@
 import React from "react";
-import Body from "../Body/Body";
+import { FiPhoneCall } from "react-icons/fi";
 import logo from "../../pic/logo.png";
 import Headercss from "../Header/Header.module.css";
 import { Link, Outlet } from "react-router-dom";
@@ -19,6 +19,11 @@ const Header = () => {
               alt="گروه نرم افزار ایک"
             />
           </a>
+          <div id={Headercss.call}>
+            <FiPhoneCall id={Headercss.facall}/>
+            <a id={Headercss.phone} href="tel:09220136476">0922-0136476</a>
+          </div>
+
           <button
             data-collapse-toggle="navbar-default"
             type="button"
@@ -78,7 +83,7 @@ const Header = () => {
                   to="/Call"
                   className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
-                   آموزش برنامه نویسی
+                  آموزش برنامه نویسی
                 </Link>
               </li>
               <li>
@@ -91,7 +96,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <Outlet/>
+      <Outlet />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import Footercss from "../Footer/Footer.module.css";
 import { TbBrandTelegram } from "react-icons/tb";
 import { CgMail } from "react-icons/cg";
 import { AiFillLinkedin } from "react-icons/ai";
-import { Link,Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -38,12 +38,7 @@ const Footer = () => {
                 <CgMail id={Footercss.gmail} />
               </a>
             </li>
-            {/* <li>
-              <a href="#" class="hover:underline">
-              <BsInstagram />
-              </a>
-             
-            </li> */}
+
             <li>
               <a href="#" class="mr-4 hover:underline md:mr-6">
                 <AiFillLinkedin id={Footercss.link} />
@@ -55,10 +50,9 @@ const Footer = () => {
             <Link to="/Cv">نمونه کار</Link>
             <Link to="/About">درباره ما</Link>
             <Link to="/Cv">آموزش برنامه نویسی</Link>
-           <a href="tel:09220136476">مشاوره تلفنی</a>
+            <a href="tel:09220136476">مشاوره تلفنی</a>
           </div>
         </div>
-       
       </footer>
     </>
   );

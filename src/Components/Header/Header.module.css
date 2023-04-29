@@ -1,12 +1,12 @@
 #main {
   background-color: #f1ebfb6b;
-  width:100% ;
+  width: 100%;
   position: fixed !important;
   position: fixed;
   backdrop-filter: blur(10px);
   z-index: 20;
 }
-#logo{
+#logo {
   height: 50px;
 }
 #ul {
@@ -16,16 +16,35 @@
   background-color: #f1ebfb4b;
   border: 1px solid black;
 }
+
+#call {
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  width: 45%;
+  align-items: center;
+}
+
+#facall {
+  font-size: 22px;
+  color: rgb(4, 109, 4);
+}
+
+#phone {
+  font-size: 18px;
+  color: #4020be;
+}
+
 #hh {
   padding-right: 35px;
 }
-#home{
+#home {
   color: black;
 }
-#home:hover{
+#home:hover {
   color: rgba(0, 0, 255, 0.693);
 }
-#moshaver:hover{
+#moshaver:hover {
   color: rgba(0, 0, 255, 0.693);
 }
 @media (min-width: 768px) {
@@ -34,5 +53,16 @@
     align-items: center;
     width: 100%;
     border: none;
+  }
+
+}
+
+@media (min-width: 768px) {
+  #facall {
+    display: none;
+  }
+
+  #phone {
+    display: none;
   }
 }
