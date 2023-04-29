@@ -50,7 +50,7 @@ const Footer = () => {
             <Link to="/Cv">نمونه کار</Link>
             <Link to="/About">درباره ما</Link>
             <Link to="/Cv">آموزش برنامه نویسی</Link>
-            <a href="tel:09220136476">مشاوره تلفنی</a>
+           <a href="tel:09220136476">مشاوره تلفنی</a>
           </div>
         </div>
       </footer>

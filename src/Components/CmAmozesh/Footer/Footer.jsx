@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Footer from "../Footer/Footer";
 
-import '../Footer/Footer.css';
 import LogoOyek from '../Pic/logo-oyek.png';
 
 const FooterItem = () =>{
     return(
         <>
-        <footer>
+    <footer>
+          
         <section id='section-footer-item'>
             <div className='div-link'>
                 <p className='p-1'>لینک‌های مهم</p>
@@ -44,7 +45,7 @@ const FooterItem = () =>{
             </div>
         </section>
 
-        {/* media  */}
+        
 
         <div className='div-ozviyat-media'>
            <p className='p-ozviyat'>عضویت در تیم اُیک</p> 
@@ -58,7 +59,7 @@ const FooterItem = () =>{
             <p className='adress'>مهرشهر کیان مهر خیابان 111 </p>
             <img className='logo-oyek' src={LogoOyek}/>
         </div>
-        </footer>
+        </footer> 
         </>
     )
 };

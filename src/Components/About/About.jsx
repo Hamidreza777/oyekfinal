@@ -1,10 +1,13 @@
 import React from "react";
 import Aboutecss from "../About/About.module.css";
 import artin from "../../pic/artin.jpg";
-import qazal from '../../pic/q.jpg'
+import qazal from '../../pic/q.jpg';
+import aa from '../../pic/arshiya.JPG';
+import m from '../../pic/m.jpg';
 import { TbBrandTelegram } from "react-icons/tb";
 import { CgMail } from "react-icons/cg";
 import Footer from "../Footer/Footer";
+
 const About = () => {
   return (
     <>
@@ -67,7 +70,7 @@ const About = () => {
           </div>
           <div className={Aboutecss.div4}>
             <div id={Aboutecss.artin}>
-              <img src={artin} alt="" />
+              <img src={m} alt="" />
               <b>
                 فرشته محمدی
                 <br></br>
@@ -89,15 +92,15 @@ const About = () => {
           </div>
           <div className={Aboutecss.div4}>
             <div id={Aboutecss.artin}>
-              <img src={artin} alt="" />
+              <img src={aa} alt="" />
               <b>
                 ارشیا رضایی
                 <br></br>
-                مدیر بخش web
+                برنامه نویس ارشد
               </b>
             </div>
             <div id={Aboutecss.artin1}>
-              <b>طراح و برنامه نویس وب</b>
+              <b> برنامه نویس </b>
             </div>
             <div id={Aboutecss.artin2}>
               <a id={Aboutecss.tell} href="">
