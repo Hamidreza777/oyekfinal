@@ -11,7 +11,15 @@
   display: flex;
   align-items: center;
   text-align: center;
-  height: 350px;
+  height: 550px;
+}
+.map{
+  height: 200px;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 #ulli {
   display: flex;
@@ -81,5 +89,12 @@
     flex-direction: column;
    
   
+  }
+  #footer{
+    height: 350px;
+  }
+  .map{
+    width: 550px;
+    margin-left: 10%;
   }
 }
