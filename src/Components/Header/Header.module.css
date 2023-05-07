@@ -47,6 +47,7 @@
 #moshaver:hover {
   color: rgba(0, 0, 255, 0.693);
 }
+
 @media (min-width: 768px) {
   #ul {
     height: 50px;
