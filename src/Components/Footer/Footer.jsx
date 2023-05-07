@@ -60,9 +60,9 @@ const Footer = () => {
             <Link to="/Call">آموزش برنامه نویسی</Link>
             <a href="tel:09220136476">مشاوره تلفنی</a>
           </div>
-          <div className={Footercss.map}>
+  {/*         <div className={Footercss.map}>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d323.4674143600993!2d50.857802678382185!3d35.778049782119574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1683028699168!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style={{width:"100%",height:"200px"}}></iframe>
-    </div>
+    </div> */}
         </div>
   
       </footer>

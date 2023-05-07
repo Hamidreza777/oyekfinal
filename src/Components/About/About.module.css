@@ -85,6 +85,9 @@
 #tell{
     padding-right: 10%;
 }
+.head{
+  width: 100%;
+}
 
 @media (max-width: 1024px) {
   #contaner {
@@ -102,6 +105,7 @@
   }
  #ff{
   margin-top: 50%;
+  width: 100%;
  }
 }
 @media (max-width: 455px) {

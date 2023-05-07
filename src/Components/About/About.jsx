@@ -112,15 +112,16 @@ const About = () => {
             </div>
           </div>
         </div>
-     
+   
+
       </div>
+     
       <div  id={Aboutecss.ff}>
 
       <Footer/>
-
-      </div>
-
-
+     
+    </div>
+    
 
 
 
