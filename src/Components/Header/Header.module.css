@@ -2,8 +2,8 @@
   background-color: #f1ebfb24;
   width: 100%;
   position: fixed !important;
-  position: fixed;
-   backdrop-filter: blur(10px);
+  z-index: +10;
+   backdrop-filter: blur(10px); 
  }
 #logo {
   height: 50px;
@@ -117,13 +117,15 @@
 
 .menu {
   filter: url("#shadowed-goo");
+
 }
 
 .menuitem, .menuopenbutton {
   background: #4020be;
+ 
   border-radius: 100%;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   margin-left: -40px;
   position: absolute;
   top: 20px;
@@ -132,10 +134,12 @@
   line-height: 80px;
   transform: translate3d(0, 0, 0);
   transition: transform ease-out 200ms;
+
 }
 
 .menuopen {
   display: none;
+  z-index: +100;
 }
 
 .hamburger {
@@ -166,6 +170,7 @@
 
 .menuopen:checked + .menuopenbutton .hamburger1 {
   transform: translate3d(0, 0, 0) rotate(45deg);
+
 }
 .menuopen:checked + .menuopenbutton .hamburger2 {
   transform: translate3d(0, 0, 0) scale(0.1, 1);
@@ -174,27 +179,40 @@
   transform: translate3d(0, 0, 0) rotate(-45deg);
 
 }
-
+.amadeh{
+position: relative;
+z-index: +100 !important;
+}
 .menu {
   position: absolute;
   left: 50%;
   margin-left: -190px;
   padding-top: 20px;
   padding-left: 190px;
-  width: 380px;
-  height: 250px;
+/*   width: 380px;
+  height: 250px; */
+z-index: +100;
+  width: 50px;
+  height: 200px;
+/* background-color: #ff408057; */
+
   box-sizing: border-box;
   font-size: 20px;
   text-align: left;
 
 }
 
-.menuitem:hover {
-  background: white;
-  color: #ff4081;
+.menuitem{
+z-index: +10;
+
+position: absolute;
+
 }
 .menuitem:nth-child(3) {
   transition-duration: 70ms;
+position: absolute;
+  z-index: +20 !important;
+  background-color: darkgreen;
   
 }
 .menuitem:nth-child(4) {
@@ -208,6 +226,8 @@
 }
 .menuitem:nth-child(7) {
   transition-duration: 310ms;
+
+  
 }
 
 .menuopenbutton {
