@@ -14,6 +14,14 @@ const Header = () => {
    
 
 
+        <a href="https://www.oyek.net/" class="flex items-center">
+            <img
+              id={Headercss.logo}
+              src={logo}
+              class="h-8 mr-3"
+              alt="گروه نرم افزار ایک"
+            />
+          </a>
 
 
 
@@ -22,7 +30,7 @@ const Header = () => {
             <a id={Headercss.phone} href="tel:09220136476">0922-0136476</a>
           </div>
 
-<div className={Headercss.amadeh}>
+
 
 
 <nav  className={Headercss.menu}>
@@ -33,11 +41,11 @@ const Header = () => {
     <span className={`${Headercss.hamburger} ${Headercss.hamburger3}`}></span>
   </label>
   
-  <a href="#" className={`${Headercss.menuitem}`}></a>
-  <a href="#" className={`${Headercss.menuitem}`}> </a>
-  <a href="#" className={`${Headercss.menuitem}`}> </a>
-  <a href="#" className={`${Headercss.menuitem}`}>  </a>
-  <a href="#" className={`${Headercss.menuitem}`}>  </a>
+  <a href="#" className={`${Headercss.menuitem}`}> salam</a>
+  <a href="#" className={`${Headercss.menuitem}`}> salam </a>
+  <a href="#" className={`${Headercss.menuitem}`}> salam </a>
+  <a href="#" className={`${Headercss.menuitem}`}>salam  </a>
+  <a href="#" className={`${Headercss.menuitem}`}> salam </a>
 
 </nav>
 
@@ -68,7 +76,6 @@ const Header = () => {
 
 
 
-</div>
 
 
 
@@ -207,14 +214,6 @@ const Header = () => {
      
 
 
-          <a href="https://www.oyek.net/" class="flex items-center">
-            <img
-              id={Headercss.logo}
-              src={logo}
-              class="h-8 mr-3"
-              alt="گروه نرم افزار ایک"
-            />
-          </a>
         </div>
       </nav>
       <Outlet />

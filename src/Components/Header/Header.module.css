@@ -1,9 +1,11 @@
 #main {
   background-color: #f1ebfb24;
   width: 100%;
-  position: fixed !important;
-  z-index: +10;
-   backdrop-filter: blur(10px); 
+   position: fixed !important; 
+   z-index: +10;
+   backdrop-filter: blur(10px) ; 
+   height: 100px;
+  
  }
 #logo {
   height: 50px;
@@ -116,7 +118,11 @@
 
 
 .menu {
-  filter: url("#shadowed-goo");
+
+   filter: url("#shadowed-goo"); 
+
+
+
 
 }
 
@@ -124,11 +130,13 @@
   background: #4020be;
  
   border-radius: 100%;
-  width: 40px;
-  height: 40px;
+   width: 80px;
+  height: 80px;
+
+
   margin-left: -40px;
   position: absolute;
-  top: 20px;
+/*   top: 20px; */
   color: white;
   text-align: center;
   line-height: 80px;
@@ -179,41 +187,42 @@
   transform: translate3d(0, 0, 0) rotate(-45deg);
 
 }
-.amadeh{
+/*  .amadeh{
 position: relative;
-z-index: +100 !important;
-}
+z-index: +50 !important;
+} 
+ */
 .menu {
   position: absolute;
   left: 50%;
   margin-left: -190px;
   padding-top: 20px;
   padding-left: 190px;
-/*   width: 380px;
-  height: 250px; */
+  width: 380px;
+  height: 250px; 
 z-index: +100;
   width: 50px;
-  height: 200px;
-/* background-color: #ff408057; */
+  height: 200px; 
+
 
   box-sizing: border-box;
   font-size: 20px;
   text-align: left;
 
 }
-
+/* 
 .menuitem{
 z-index: +10;
 
 position: absolute;
 
-}
+} */
 .menuitem:nth-child(3) {
   transition-duration: 70ms;
-position: absolute;
+
   z-index: +20 !important;
   background-color: darkgreen;
-  
+
 }
 .menuitem:nth-child(4) {
   transition-duration: 130ms;
